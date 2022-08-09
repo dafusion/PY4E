@@ -15,7 +15,7 @@ def count_word(text, word):
             for s in line:
                 word_save = word_save + s 
                 if word_save == word: 
-                    count += 1 # count +1
+                    count += 1
                 if len(word_save) == len(word): 
                     word_save = word_save[1:]
     print(count) 
